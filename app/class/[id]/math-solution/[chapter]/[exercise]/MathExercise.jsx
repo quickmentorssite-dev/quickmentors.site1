@@ -1,7 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import MathJax from 'react-mathjax-preview';
+import { MathJax, MathJaxContext } from "better-react-mathjax";
+// MathExercise.jsx me ek comment add kar
+// TODO: fix MathJax display
+
 import './newpage.css';
 
 export default function MathExercise({ id, chapter, exercise, exerciseData }) {
